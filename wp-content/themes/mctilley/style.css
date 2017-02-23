@@ -13,10 +13,24 @@
 */
 
 .site-title a {
-    color: aquamarine;
+    color:hotpink;
+    
 }
 
 .entry-content {
     font-family: arial;
+    color:beige;
 }
+
+
+.col-lg-8 {
+    width: 100%;
+}
+
+.header-custom {
+    max-height: 120px;
+    overflow: hidden;
+}
+
+
 
