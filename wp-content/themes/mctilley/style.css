@@ -13,13 +13,30 @@
 */
 
 .site-title a {
-    color:hotpink;
+    color:#F8DEFA   ;
     
+}
+
+.site-description {
+    color:#DBC8AD;
 }
 
 .entry-content {
     font-family: arial;
     color:beige;
+}
+
+.site-footer {
+    color:white;    
+}
+
+.footer-text {
+    color:darkviolet;
+}
+
+.site-info {
+    padding:20px;
+    background:#f1f1f1;
 }
 
 
@@ -32,5 +49,131 @@
     overflow: hidden;
 }
 
+    
+/* TESTING GRIDS */
+    
+
+#homepage-content div {
+    border: 1px solid black;
+    padding:2px;
+}
+
+.map {
+    width:50%;
+    display:inline;
+    float:left;
+}
+
+.hotels {
+    width: 50%;
+    display:inline;
+    float:left;
+}
+
+.cta {
+    padding:5px 10px 5px 10px;
+    background-color: #DBC8AD;
+    color:white;
+    transition-duration: 0.5s;
+}
+
+.cta-map {
+    padding:5px 10px 5px 10px;
+    background-color: blue;
+    color:white;
+    transition-duration: 0.5s;
+    float: right;
+}
+
+.cta-hotel {
+    padding:5px 10px 5px 10px;
+    background-color: blue;
+    color:white;
+    transition-duration: 0.5s;
+    float: left;
+}
+
+.green {
+    background-color: green;
+}
+
+.iframe {
+    padding: 5px 5px 5px 5px;
+    border: 10px;
+}
+
+.cta:visited {
+    color: white;
+}
+
+.cta:hover {
+    border:2px solid #F8DEFA;
+    color:#F8DEFA;
+}
 
 
+.pink-text {
+    color:hotpink;
+}
+
+.massive-text {
+    font-size: 40pt;
+}
+
+.circle {
+    display: block;
+    height: 160px;
+    width: 160px;
+    line-height: 160px;
+
+    -moz-border-radius: 80px; /* or 50% */
+    border-radius: 80px; /* or 50% */
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.year-image {
+    border-radius: 50%;
+
+}
+
+.year {
+    width:33%;
+    display:inline;
+    float:left;
+    color:#DBC8AD
+    font-color:#F8DEFA
+}
+
+
+.circle-image {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.h2 {
+    color:#FAC8ED;
+}
+
+.claire {
+    font-family:arial;
+    color:deeppink
+}
+
+.mike {
+    font-family:arial;
+    color:blue
+}
+
+.centre {
+    text-align: center;
+}
+
+.gift-image {
+    border-radius: 50%
+}
