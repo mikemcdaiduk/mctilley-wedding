@@ -19,8 +19,21 @@ get_header(); ?>
 
 			<div id="primary" class="content-area col-xs-12 col-sm-12 col-md-12 col-lg-8">
 				<main id="main" class="site-main" role="main">
-<h1>Venue</h1>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39451.74825409179!2d0.6491377749896197!3d51.829284618757015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2ad4b6f98ca3fe3!2sCrabbs+Barn!5e0!3m2!1sen!2suk!4v1488643019373" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<h1 id=venueh1>Venue</h1>
+		<div id=venue><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39451.74825409179!2d0.6491377749896197!3d51.829284618757015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2ad4b6f98ca3fe3!2sCrabbs+Barn!5e0!3m2!1sen!2suk!4v1488643019373" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        <div id=venuedeets> 
+            <p>Crabbs Barn
+            <br>Cranes Lane
+            <br>Kelvedon
+            <br>Essex
+            <br>CO5 9AX
+            </p>
+            <br>
+            <p id=important>
+            The venue is <b>cash only</b>, and there's no cash machines nearby
+            </p>
+                    
+                    </div>
                     				</main><!-- #main -->
 			</div><!-- #primary -->
 

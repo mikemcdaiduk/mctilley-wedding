@@ -53,10 +53,10 @@
 /* TESTING GRIDS */
     
 
-#homepage-content div {
+/*#homepage-content div {
     border: 1px solid black;
     padding:2px;
-}
+}*/
 
 .map {
     width:50%;
@@ -135,18 +135,7 @@
     font-size: 2em;
 }
 
-.year-image {
-    border-radius: 50%;
 
-}
-
-.year {
-    width:33%;
-    display:inline;
-    float:left;
-    color:#DBC8AD
-    font-color:#F8DEFA
-}
 
 
 .circle-image {
@@ -162,12 +151,12 @@
 
 .claire {
     font-family:arial;
-    color:deeppink
+    color:deeppink;
 }
 
 .mike {
     font-family:arial;
-    color:blue
+    color:blue;
 }
 
 .centre {
@@ -175,5 +164,74 @@
 }
 
 .gift-image {
-    border-radius: 50%
+    width:30%;
+    float:left;
+    margin:5px;
+}
+
+#nf-form-2-cont {
+    color: black;
+}
+
+#nf-form-3-cont {
+    color:black;
+}
+
+#venue {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#venueh1 {
+    text-align: center;
+}
+
+#venuedeets {
+    text-align: center;
+}
+
+#important {
+    text-align: center;
+    color:red
+}
+
+/* HOMEPAGE TIMELINE */
+
+#timeline h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.timeline-row {
+    width: 100%;
+    text-align:center;
+    clear: both;
+    margin-bottom: 120px;
+    height:360px;
+}
+
+.year img {
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.year h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.year {
+    width:33.3333%;
+    /* background-color:#DBC8AD; */
+    color: #F8DEFA;
+    float: left;
+}
+
+.year p {
+    margin-bottom:0px;
+    max-width: 220px;
+    margin: auto;
 }

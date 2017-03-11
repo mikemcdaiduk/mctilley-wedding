@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div id="content" class="site-content">
 
-	<div class="container" id="hotels-page">
+	<div class="container">
 		<div class="row">
 
 			<div id="primary" class="content-area col-xs-12 col-sm-12 col-md-12 col-lg-8">

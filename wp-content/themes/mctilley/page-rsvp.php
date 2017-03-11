@@ -19,8 +19,13 @@ get_header(); ?>
 
 			<div id="primary" class="content-area col-xs-12 col-sm-12 col-md-12 col-lg-8">
 				<main id="main" class="site-main" role="main">
-<h1>RSVP</h1>
-					
+				
+                    <?php while ( have_posts() ) : the_post(); ?>
+
+						<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+					<?php endwhile; // end of the loop. ?>
+                    
 				</main><!-- #main -->
 			</div><!-- #primary -->
 

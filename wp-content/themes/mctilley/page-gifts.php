@@ -27,9 +27,9 @@ get_header(); ?>
         <br>
         <i>(If you look closely you'll see they're not actually real! I know, crazy!)</i>
         </p>			
-        <div style=background-image class="gift-image"><img src="<?php the_field('gift-image-1'); ?>"></div>
-        <div class="gift-image"><img src="<?php the_field('gift-image-2'); ?>"></div>
-        <div class="gift-image"><img src="<?php the_field('gift-image-3'); ?>"></div>
+        <div style=background-image class="gift-image"><img src="<?php the_field('gift_image_1'); ?>"></div>
+        <div style=background-image class="gift-image"><img src="<?php the_field('gift_image_2'); ?>"></div>
+        <div style=background-image class="gift-image"><img src="<?php the_field('gift_image_3'); ?>"></div>
 				</main><!-- #main -->
 			</div><!-- #primary -->
 
